@@ -32,9 +32,9 @@ export default function Home() {
           : "bg-gradient-to-b from-[#000]/80 to-transparent text-[#FFF9E8]"
         }`}>
         <div className="flex h-full justify-between">
-          <div className="bg-white pl-4 py-3 gap-4 flex h-[70px] w-[130px] rounded-br-xl"> 
-            <img src="/unnes.png"/>
-            <img src="/dikti.png"/>
+          <div className="bg-white pl-4 py-3 gap-4 flex h-[70px] w-[150px] rounded-br-xl"> 
+            <Image src="/unnes.png" width={50} height={50}/>
+            <Image src="/dikti.png" width={50} height={50}/>
           </div>
           <ul className="flex flex-row space-x-8 pr-4 py-[20px]">
             <li>
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
       </div>
       <div id="about" className="h-screen flex pt-[50px] px-[40px] pb-[20px] bg-[#F5F5F5]">
-        <img src="/image 2.png" className="p-[30px]" data-aos="fade-up" />
+        <Image width={500} height={200} src="/image 2.png" className="p-[30px]" data-aos="fade-up" />
         <div className="px-[50px] pt-[20px]" data-aos="fade-up" >
           <div className="flex flex-col border-l-4 pl-5 border-[#AA9D7F]"> 
             <h className="text-[56px] font-bold">ABOUT</h>
@@ -152,25 +152,25 @@ export default function Home() {
         </div>
         <div className="flex flex-row mr-[50px]" data-aos="fade-up">
           <div className="h-[100px] w-[200px]">
-            <img src="/image 6.png" className="p-[10px] mt-[20px] h-[350px] w-[250px]"/>
+            <Image width={200} height={100} src="/image 6.png" className="p-[10px] mt-[20px] h-[350px] w-[250px]"/>
           </div>
           <div className="h-[100px] w-[200px]">
-            <img src="/image 10.png" className="p-[10px] w-[190px]"/>
-            <img src="/image 3.png" className="p-[10px] w-[190px]"/>
+            <Image width={200} height={100} src="/image 10.png" className="p-[10px] w-[190px]"/>
+            <Image width={200} height={100} src="/image 3.png" className="p-[10px] w-[190px]"/>
           </div>
         </div>
       </div>
       <div id="gallery" className="h-screen pt-[50px] text-center" data-aos="fade-up">
         <h className="text-[56px] text-[#AA9D7F] font-thin">GALERY</h>
         <div className="flex justify justify-between mt-[20px]">
-          <img src="/image 11.png" className="w-[500px]"/>
-          <img src="/image 14.png" className="w-[500px]"/>
-          <img src="/image 4.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 11.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 14.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 4.png" className="w-[500px]"/>
         </div>
         <div className="flex justify justify-between">
-          <img src="/image 18.png" className="w-[500px]"/>
-          <img src="/image 19.png" className="w-[500px]"/>
-          <img src="/image 16.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 18.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 19.png" className="w-[500px]"/>
+          <Image width={500} height={200} src="/image 16.png" className="w-[500px]"/>
         </div>
       </div>
       <div id="contact" className="h-[500px] mt-[150px] flex flex-col">
