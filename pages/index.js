@@ -136,7 +136,7 @@ export default function Home() {
         <div className="absolute h-[300px] inset-0 bg-black/60 z-10"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-[#FFF9E8]">
           <h1 className="text-4xl font-bold text-[50px]">Camping Bersama Keluarga</h1>
-          <div className="bg-[#AA9D7F] w-[180px] h-[50px] pt-3 rounded rounded-full mt-[10px] text-white text-center font-bold">Booking Sekarang</div>
+          <a href="https://wa.me/6285368750820" className="bg-[#AA9D7F] w-[180px] h-[50px] pt-3 rounded rounded-full mt-[10px] text-white text-center font-bold">Booking Sekarang</a>
         </div>
       </div>
       <div id="service" className="h-screen pt-[80px] flex flex-row justify-between bg-[#F5F5F5]">
@@ -173,33 +173,34 @@ export default function Home() {
           <img src="/image 16.png" className="w-[500px]"/>
         </div>
       </div>
-      <div id="contact" className="h-full mt-[150px] flex flex-col">
+      <div id="contact" className="h-[500px] mt-[150px] flex flex-col">
         <div className="flex flex-row" data-aos="fade-up">
          <div className="flex flex-col border-l-4 ml-[50px] pl-5 border-[#AA9D7F]"> 
             <h className="text-[56px] font-bold">Contact</h>
             <h className="text-[24px] font-thin">Pantai Indah Layur</h>
           </div>
-          <div className="flex flex-row items-center ml-[450px] gap-5">
-            <div className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center ">
+          <div className="flex flex-row items-center pl-[600px] gap-5">
+            <a href="https://www.instagram.com/pantaiindahlayur/" className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center hover:bg-[#8B7E5C]">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-            </div>
-            <div className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center ">
+            </a>
+            {/* <a className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center hover:bg-[#8B7E5C]">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </div>
-            <div className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center ">
+            </a> */}
+            <a href="https://wa.me/6285368750820" className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center hover:bg-[#8B7E5C]">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
-            </div>
-            <div className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center ">
+            </a>
+            <a href="https://www.tiktok.com/@pil_pantaiindahlayur" className="bg-[#AA9D7F] h-[100px] w-[100px] flex justify-center items-center hover:bg-[#8B7E5C]">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music2-icon lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
-            </div>
+            </a>
           </div>
         </div>
         <div
-          className="relative h-[400px] bg-cover bg-center mt-[150px]"
+          className="relative h-full bg-cover bg-center mt-[150px]"
           style={{ backgroundImage: "url('/image 4.png')" }}
           data-aos="fade-up"
         >
           <div className="absolute inset-0 bg-black/60 z-10"></div>
+          
         </div>
       </div>
     </div>

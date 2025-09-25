@@ -7,7 +7,8 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
       <title>Pantai Indah Layur </title>
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+      <link rel="icon" href="/island.png" />
+      {/* <link href='https://unpkg.com/boxicons@2.1.4 /css/boxicons.min.css' rel='stylesheet'></link> */}
     </Head>
     <div>
       <Component {...pageProps} />
